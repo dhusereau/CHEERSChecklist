@@ -28,18 +28,18 @@ renderSection <- function(section){
 customField <- function(ind) {
   # Renders domain headings (e.g Title), and special case of the Abstract item
   if (ind$Type == "text") {
-    if (ind$Domain == "Abstract") {
+    #if (ind$Domain == "Abstract") {
       # Handles special case for the Abstract item of the main checklist, which
       # points you towards the Abstract checklist
       # Special case is indicated by Domain == Abstract
-      fluidPage(fluidRow(
-        column(2, br(), strong(ind$Domain)),
-        column(1, br(), strong(ind$Qnumber), align = "middle"),
-        column(4, br(), ind$Label),
-        column(4, br(), actionLink("gotoAb", "Go to PRISMA-A"), align = "middle"),
-        column(1)
-      ))
-    } else {
+      # fluidPage(fluidRow(
+      #   column(2, br(), strong(ind$Domain)),
+      #   column(1, br(), strong(ind$Qnumber), align = "middle"),
+      #   column(4, br(), ind$Label),
+      #   column(4, br(), actionLink("gotoAb", "Go to PRISMA-A"), align = "middle"),
+      #   column(1)
+      # ))
+    #} else {
       # Adds row with 
       fluidPage(fluidRow(
         column(2, strong(ind$Domain)),
@@ -48,7 +48,7 @@ customField <- function(ind) {
         column(4)
       ))
       
-    }
+   # }
     
   } else {
     customButton(ind)

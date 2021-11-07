@@ -58,5 +58,5 @@ flextable(df) %>%
 
 &nbsp;
 
-_From:_  Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. MetaArXiv. 2020, September 14. DOI: 10.31222/osf.io/v7gm2. For more information, visit: [www.prisma-statement.org](www.prisma-statement.org)
+_From:_  Husereau D, Drummond M, Augustovski F, et al. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Explanation and Elaboration: A Report of the ISPOR CHEERS II Good Practices Task Force. Value Health 2022;25. doi:10.1016/j.jval.2021.10.008
 

@@ -6,7 +6,7 @@
       "Questions": [
         {
           "Type": "text",
-          "Domain": "TITLE",
+          "Domain": "Title",
           "Label": ""
         },
         {
@@ -21,14 +21,14 @@
         },
         {
           "Type": "text",
-          "Domain": "ABSTRACT",
+          "Domain": "Abstract",
           "Label": ""
         },
         {
           "Type": "radio",
           "Domain": "Abstract", 
           "Qnumber": "2",
-          "Label": "Provide a structured summary that highlights context, key methods, results and alternative analyses.",
+          "Label": "Provide a structured summary that highlights context, key methods, results, and alternative analyses.",
           "AnswerType": "Text"
         },
         {
@@ -36,14 +36,14 @@
         },
         {
           "Type": "text",
-          "Domain": "INTRODUCTION",
+          "Domain": "Introduction",
           "Label": ""
         },
         {
           "Type": "radio",
           "Domain": "Background and objectives",
           "Qnumber": "3",
-          "Label": "Give the context for the study, the study question and its practical relevance for health policy or practice. ",
+          "Label": "Give the context for the study, the study question, and its practical relevance for decision making in policy or practice.",
           "AnswerType": "Text"
         },
        {
@@ -51,12 +51,12 @@
         },
         {
           "Type": "text",
-          "Domain": "METHODS",
+          "Domain": "Methods",
           "Label": ""
         },
         {
           "Type": "radio",
-          "Domain": "Health economic Analysis plan",
+          "Domain": "Health economic analysis plan",
           "Qnumber": "4",
           "Label": "Indicate whether a health economic analysis plan was developed and where available.",
           "AnswerType": "Text"
@@ -66,7 +66,7 @@
           "Type": "radio",
           "Domain": "Study population",
           "Qnumber": "5",
-          "Label": "Describe characteristics of the study population (such as age range, demographics, or clinical characteristics).",
+          "Label": "Describe characteristics of the study population (such as age range, demographics, socioeconomic, or clinical characteristics).",
           "AnswerType": "Text"
         },
         {
@@ -78,16 +78,16 @@
         },
         {
           "Type": "radio",
-          "Domain": "Perspective",
+          "Domain": "Comparators",
           "Qnumber": "7",
-          "Label": "State the perspective(s) adopted by the study and why chosen.",
+          "Label": "Describe the interventions or strategies being compared and why chosen.",
           "AnswerType": "Text"
         },
        {
           "Type": "radio",
-          "Domain": "Comparators",
+          "Domain": "Perspective",
           "Qnumber": "8",
-          "Label": "Describe the interventions or strategies being compared and why chosen.",
+          "Label": "State the perspective(s) adopted by the study and why chosen.",
           "AnswerType": "Text"
         },
                {
@@ -122,14 +122,14 @@
           "Type": "radio",
           "Domain": "Valuation of outcomes",
           "Qnumber": "13",
-          "Label": "Describe the population and methods used to measure and value preferences for outcomes.",
+          "Label": "Describe the population and methods used to measure and value outcomes.",
           "AnswerType": "Text"
         },
         {
           "Type": "radio",
           "Domain": "Measurement and valuation of resources and costs",
           "Qnumber": "14",
-          "Label": "Describe how costs were valuated.",
+          "Label": "Describe how costs were valued.",
           "AnswerType": "Text"
         },
                 {
@@ -143,7 +143,7 @@
           "Type": "radio",
           "Domain": "Rationale and description of model",
           "Qnumber": "16",
-          "Label": "If modeling is used, describe in detail and why used.",
+          "Label": "If modelling is used, describe in detail and why used. Report if the model is publicly available and where it can be accessed.",
           "AnswerType": "Text"
         },
                         {
@@ -155,25 +155,25 @@
         },
         {
           "Type": "radio",
-          "Domain": "Characterizing uncertainty",
+          "Domain": "Characterising heterogeneity",
           "Qnumber": "18",
-          "Label": "Describe methods to characterize any sources of uncertainty in the analysis.",
+          "Label": "Describe any methods used for estimating how the results of the study vary for subgroups.",
           "AnswerType": "Text"
         },
                         {
           "Type": "radio",
-          "Domain": "Characterizing heterogeneity",
+          "Domain": "Characterising distributional effects",
           "Qnumber": "19",
-          "Label": "Describe any methods used for estimating how the results of the study vary for sub-groups.",
+          "Label": "Describe how impacts are distributed across different individuals or adjustments made to reflect priority populations.",
           "AnswerType": "Text"
         },
         
                                 
           {
           "Type": "radio",
-          "Domain": "Characterizing distributional effects",
+          "Domain": "Characterising uncertainty",
           "Qnumber": "20",
-          "Label": "Describe how impacts are distributed across different individuals or adjustments made to reflect priority populations.",
+          "Label": "Describe methods to characterise any sources of uncertainty in the analysis.",
           "AnswerType": "Text"
         },
         
@@ -181,9 +181,9 @@
         
          {
           "Type": "radio",
-          "Domain": "Approach to patient, public, and stakeholder involvement",
+          "Domain": "Approach to engagement with patients and others affected by the study",
           "Qnumber": "21",
-          "Label": "Describe any approaches to engage patients, the general public, or stakeholders (e.g., clinicians or payers) in the design of the study.",
+          "Label": "Describe any approaches to engage patients or service recipients, the general public, communities, or stakeholders (such as clinicians or payers) in the design of the study.",
           "AnswerType": "Text"
         },
         
@@ -197,14 +197,14 @@
         },
                 {
           "Type": "text",
-          "Domain": "RESULTS",
+          "Domain": "Results",
           "Label": ""
         },
         {
           "Type": "radio",
           "Domain": "Study parameters",
           "Qnumber": "22",
-          "Label": "Report all analytic inputs (e.g., values, ranges, references)  including uncertainty or distributional assumptions.",
+          "Label": "Report all analytic inputs (such as values, ranges, references) including uncertainty or distributional assumptions.",
           "AnswerType": "Text"
         },
         {
@@ -223,9 +223,9 @@
         },
                 {
           "Type": "radio",
-          "Domain": "Effect of patient, public, and stakeholder involvement",
+          "Domain": "Effect of engagement with patients and others affected by the study",
           "Qnumber": "25",
-          "Label": "Report on any difference patient, public, or stakeholder involvement made to the approach or findings of the study",
+          "Label": "Report on any difference patient/service recipient, general public, community, or stakeholder involvement made to the approach or findings of the study",
           "AnswerType": "Text"
         },
                        
@@ -235,14 +235,14 @@
         },
         {
           "Type": "text",
-          "Domain": "DISCUSSION",
+          "Domain": "Discussion",
           "Label": ""
         },
                  {
           "Type": "radio",
-          "Domain": "Study findings, limitations, generalizability, and current knowledge",
+          "Domain": "Study findings, limitations, generalisability, and current knowledge",
           "Qnumber": "26",
-          "Label": "Report key findings, limitations, ethical or equity considerations not captured, and how these could impact patients, policy, or practice.",
+          "Label": "Report key findings, limitations, ethical or equity considerations not captured, and how these could affect patients, policy, or practice.",
           "AnswerType": "Text"
         },
         
@@ -253,21 +253,21 @@
         },
         {
           "Type": "text",
-          "Domain": "OTHER RELEVANT INFORMATION",
+          "Domain": "Other relevant information",
           "Label": ""
         },
          {
           "Type": "radio",
           "Domain": "Source of funding",
           "Qnumber": "27",
-          "Label": "Describe how the study was funded and any role of the funder in the identification, design, conduct and reporting of the analysis ",
+          "Label": "Describe how the study was funded and any role of the funder in the identification, design, conduct, and reporting of the analysis",
           "AnswerType": "Text"
         },
         {
           "Type": "radio",
           "Domain": "Conflicts of interest",
           "Qnumber": "28",
-          "Label": "Report authors conflicts of interest according to journal or ICMJE requirements.",
+          "Label": "Report authors conflicts of interest according to journal or International Committee of Medical Journal Editors requirements.",
           "AnswerType": "Text"
         }
         

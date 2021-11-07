@@ -270,7 +270,7 @@ shinyServer(function(input, output, session) {
       paste("citation", ".bib", sep = "")
     },
     content = function(file) {
-      file.copy("www/prismacitation.bib", file)
+      file.copy("www/CHEERS_bib.bib", file)
     }
   )
   
@@ -279,7 +279,7 @@ shinyServer(function(input, output, session) {
       paste("citation", ".ris", sep = "")
     },
     content = function(file) {
-      file.copy("www/prismacitation.ris", file)
+      file.copy("www/CHEERS_ris.ris", file)
     }
   )
   
